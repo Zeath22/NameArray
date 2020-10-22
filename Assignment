@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class namearray {
+    public static void main(String[] args) {
+        System.out.println("How many letters is your name?");
+        Scanner x = new Scanner(System.in);
+        int letters= x.nextInt();
+    
+        char [] ABAS= new char[letters];
+        
+        int Z;
+        System.out.println("Enter Your Name One Letter At A Time");
+        
+        for(Z=0 ; Z<ABAS.length ;Z++ ){
+            char l = x.next().charAt(0);
+            ABAS[Z]=l;
+        }
+        System.out.print("Your name is: ");
+         for(Z=0 ; Z<ABAS.length ; Z=Z+1)
+             
+        System.out.print(ABAS[Z]);
+            }
+}
