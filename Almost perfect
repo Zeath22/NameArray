@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class NewClass {
+    public static void main(String[] args) {
+         Scanner x = new Scanner(System.in);
+        System.out.println("How many letters is your Firstname?");
+                int Fletters= x.nextInt();
+        System.out.println("How many letters is your Last name?");
+               int Lletters= x.nextInt();
+
+    
+        char [][] ABAS= new char[Fletters][Lletters];
+        
+        int Z;
+        int i;
+        System.out.println("Enter Your First Name One Letter At A Time");
+        
+                for(Z=0, i=0 ; Z<Fletters ;Z++ ){
+                    char l = x.next().charAt(0);
+                    ABAS[Z][i]=l;
+                }
+                System.out.print("Your first Name is ");{
+                for(Z=0 ; Z<Fletters ; Z=Z+1)
+                for(Z=0 ; Z<Fletters ;Z++ )
+                System.out.print(ABAS[Z][i]);
+                }System.out.println();
+                
+                            System.out.println("And What is Your Last Name? ");
+                            for(Z=0, i=0 ; i<Lletters ;i++ ){
+                            char l = x.next().charAt(0);
+                            ABAS[Z][i]=l;
+                            }System.out.print("And Your is Your Last Name is ");
+                            for(i=0 ; i<Lletters ; i=i+1)
+                            for(i=0 ; i<Lletters ;i++ ){
+                            System.out.print(ABAS[Z][i]);
+                            }
+}
+}
