@@ -1,0 +1,13 @@
+public class Abas {
+public static void main(String[] args) {
+        int[] numbers = new int[10];
+        int i;
+        for (i=0 ; i<10 ;i= i+1)
+            numbers[i]=i;
+        
+        for(i=0 ; i<10;i= i+1)
+            System.out.println("numbers["+i+"]:"+numbers[i]);
+    
+    
+    }
+}
