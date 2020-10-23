@@ -1,0 +1,30 @@
+//import scanner utility
+public static void main(String[] args) {
+        System.out.println("How many letters is your first name?");
+        Scanner X = new Scanner(System.in);
+        int Fletters= X.nextInt();
+        char [] ABA= new char[Fletters];                
+        int Z;
+        System.out.println("Enter Your first Name One (one letter at a time)");
+        for(Z=0 ; Z<ABA.length ;Z++ ){
+            char a = X.next().charAt(0);
+            ABA[Z]=a;
+        }
+                        System.out.println("How many letters is your last name?");
+                        int Lletters= X.nextInt();
+                               
+                        char [] ABAS= new char[Lletters];
+                        int Y;
+        System.out.println("Enter Your last Name (one letter at a time)");
+
+        for(Y=0 ; Y<ABAS.length ;Y++ ){
+        char b = X.next().charAt(0);
+        ABAS[Y]=b;
+        }
+                        System.out.print("Your full name is: ");
+                        for(Z=0 ; Z<ABA.length ; Z=Z+1)
+                        System.out.print(ABA[Z]);
+                        System.out.print(" ");
+                        for(Y=0 ; Y<ABAS.length ; Y=Y+1)
+                        System.out.print(ABAS[Y]);
+    }
