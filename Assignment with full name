@@ -1,5 +1,7 @@
-//import scanner utility
-public static void main(String[] args) {
+import java.util.Scanner;
+public class ithink {
+     public static void main(String[] args) {
+
         System.out.println("How many letters is your first name?");
         Scanner X = new Scanner(System.in);
         int Fletters= X.nextInt();
@@ -28,3 +30,4 @@ public static void main(String[] args) {
                         for(Y=0 ; Y<ABAS.length ; Y=Y+1)
                         System.out.print(ABAS[Y]);
     }
+}  
